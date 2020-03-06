@@ -1,9 +1,8 @@
 import angular from 'angular'
 import './styles.less'
-import componentsModule from './components'
-import { quickTip } from './components/quickTip/quickTip';
+import { componentsModule } from './components/index'
 
-const mainApp = angular.module('mainApp', [componentsModule, quickTip])
+const mainApp = angular.module('mainApp', [componentsModule])
 
 mainApp.controller('appController', [
   '$scope',

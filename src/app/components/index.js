@@ -1,5 +1,4 @@
 import angular from 'angular'
+import { quickTip } from './quickTip/quickTip';
 
-const angularModule = angular.module('components', [])
-
-export default angularModule.name
+export const componentsModule = angular.module('mainApp.componentsModule', [quickTip]).name;
