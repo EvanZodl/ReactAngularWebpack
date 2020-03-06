@@ -1,4 +1,4 @@
 import angular from 'angular'
-import { quickTip } from './quickTip/quickTip';
+import { avatar } from '../settings/profile/avatar/avatar';
 
-export const componentsModule = angular.module('mainApp.componentsModule', [quickTip]).name;
+export const componentsModule = angular.module('ngp.componentsModule', [avatar]).name;

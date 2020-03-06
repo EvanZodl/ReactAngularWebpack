@@ -45,7 +45,7 @@ module.exports = {
     compress: true,
     hot: false,
     host: '0.0.0.0',
-    port: 8080,
+    port: 9999,
     clientLogLevel: 'warning',
     stats: 'errors-only',
     disableHostCheck: true,

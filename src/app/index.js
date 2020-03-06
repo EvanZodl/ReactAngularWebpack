@@ -1,10 +1,10 @@
 import angular from 'angular'
 import './styles.less'
-import { componentsModule } from './components/index'
+import { settingsModule } from './settings/hub';
 
-const mainApp = angular.module('mainApp', [componentsModule])
+const ngp = angular.module('ngp', [settingsModule])
 
-mainApp.controller('appController', [
+ngp.controller('appController', [
   '$scope',
 
   function($scope) {
