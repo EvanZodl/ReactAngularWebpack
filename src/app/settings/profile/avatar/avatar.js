@@ -1,7 +1,7 @@
 import angular from 'angular'
 import htmlTemplate from './avatar.tpl.html'
 
-export const avatar = angular.module('componentsModule', []).directive('avatar', function() {
+const avatar = angular.module('componentsModule', []).directive('avatar', function() {
   return {
     scope: {
       name: '@'
@@ -11,3 +11,5 @@ export const avatar = angular.module('componentsModule', []).directive('avatar',
     },
   }
 }).name;
+
+export default avatar;

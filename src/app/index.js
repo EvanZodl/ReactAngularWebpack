@@ -1,6 +1,6 @@
 import angular from 'angular'
 import './styles.less'
-import { settingsModule } from './settings/hub';
+import settingsModule from './settings/hub';
 
 const ngp = angular.module('ngp', [settingsModule])
 

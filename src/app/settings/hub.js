@@ -1,4 +1,6 @@
 import angular from 'angular';
-import { settingsProfileModule } from './profile/hub';
+import settingsProfileModule from './profile/hub';
 
-export const settingsModule = angular.module('ngp.settings', [settingsProfileModule]).name;
+const settingsModule = angular.module('ngp.settings', [settingsProfileModule]).name;
+
+export default settingsModule;
